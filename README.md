@@ -1,4 +1,4 @@
-# Nested Arrays Lab
+ # Nested Arrays Lab
 
 ## Learning Goals
 
