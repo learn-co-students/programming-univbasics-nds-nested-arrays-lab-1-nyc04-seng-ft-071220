@@ -31,12 +31,16 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  all_produce = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-  new_arr = []
-  all_produce.length.times do |index|
-  new_arr << all_produce[index].sort
-  end
-  new_arr
+  sorted_produce = [
+    CONVENTIONAL_PRODUCE.sort,
+    ORGANIC_PRODUCE.sort
+  ]
+  # all_produce = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  # new_arr = []
+  # all_produce.length.times do |index|
+  # new_arr << all_produce[index].sort
+  # end
+  # new_arr
 end
 
 def matrix_lookup(matrix, row, column)
